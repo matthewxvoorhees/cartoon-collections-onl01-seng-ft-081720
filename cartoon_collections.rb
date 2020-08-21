@@ -9,6 +9,12 @@ summon.map do {|name| name.capitalize}
   end
 end
 
+def hamburger(toppings)
+  toppings.collect do |topping|
+    puts "I love #{topping} on my burgers!"
+  end
+end
+
 def long_planeteer_calls# code an argument here
   # Your code here
 end
