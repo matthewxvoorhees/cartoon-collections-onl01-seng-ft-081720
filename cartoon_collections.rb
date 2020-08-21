@@ -11,10 +11,7 @@ summon.map do |name|
 end
 
 def long_planeteer_calls(calls)
-  if calls.length < 5
-    return false
-elsif calls.length > 4
-  return true
+calls.any? {
   end
 end
 
