@@ -11,10 +11,8 @@ summon.map do |name|
 end
 
 def long_planeteer_calls(calls)
-if calls < 4
+if calls < 5
   return false
-  
- 
 end
 
 def find_the_cheese# code an argument here
