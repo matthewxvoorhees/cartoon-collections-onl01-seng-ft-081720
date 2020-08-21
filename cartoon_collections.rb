@@ -5,12 +5,13 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(summon)
-summon.map do {|name| name.capitalize}
+summon.map do |name|
+  returns "#{name.capitalize}!"
   end
 end
 
 def hamburger(toppings)
-  toppings.collect do |topping|
+  summon.collect do |topping|
     puts "I love #{topping} on my burgers!"
   end
 end
