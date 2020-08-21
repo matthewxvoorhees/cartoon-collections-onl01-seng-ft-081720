@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(summon)
 summon.map do |name|
-  returns "#{name.capitalize}!"
+  return "#{name.capitalize}!"
   end
 end
 
