@@ -13,6 +13,8 @@ end
 def long_planeteer_calls(calls)
 if calls < 5
   return false
+elsif calls > 4
+  return true
 end
 
 def find_the_cheese# code an argument here
