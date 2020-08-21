@@ -5,20 +5,15 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(summon)
-array = []
 summon.map do |name| 
   "#{name.capitalize}!"
   end
 end
 
-def hamburger(toppings)
-  summon.collect do |topping|
-    puts "I love #{topping} on my burgers!"
-  end
-end
-
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+if calls < 4
+  
+ 
 end
 
 def find_the_cheese# code an argument here
